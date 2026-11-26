@@ -1,0 +1,16 @@
+{
+  "name": "sous-traitance-web",
+  "version": "1.0.0",
+  "description": "Interface web pour gérer une base PostgreSQL sur Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
